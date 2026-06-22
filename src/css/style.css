@@ -17,8 +17,16 @@ header{
     align-items: center;      
 }
 
+
+nav a{
+    text-decoration: none;
+    color: #444;
+    margin-left: 30px;  
+    font-size: 15px;
+}
+
 .banner{
-    width: 90px;
+    width: 90%;
     margin: 20px auto;
 }
 
@@ -27,3 +35,4 @@ header{
     height: 500px;
     object-fit: cover;
 }
+

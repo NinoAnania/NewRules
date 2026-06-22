@@ -10,13 +10,14 @@ body{
 }
 
 header{
-    width: 90%;
-    margin: 20px auto;  
-    display: flex;  
-    jyustify-content: space-between;
-    align-items: center;      
-}
+    background-color: #fff;
+    padding: 20px 0; 
+}   
 
+nav{
+    display: inline-block;
+    
+}
 
 nav a{
     text-decoration: none;
@@ -36,3 +37,23 @@ nav a{
     object-fit: cover;
 }
 
+.popular{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.popular h2{
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+. new-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+new-items img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}

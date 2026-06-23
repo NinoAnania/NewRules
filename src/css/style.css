@@ -1,3 +1,7 @@
+
+@import url("https//cdn.web-fonts.ge/fonts/alk-rounded-nusx-med/css/alk-rounded-nusx-med.min.css");
+
+
 *{
     margin: 0;
     padding: 0;
@@ -13,10 +17,16 @@ header{
     background-color: #fff;
     padding: 20px; 
 }   
+a{
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    font-size: 16px;
+}
 .logo li{
     display: inline-block;
     vertical-align: middle;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
 }
+
 
 nav{
     display:inline-block;
@@ -24,6 +34,7 @@ nav{
     margin-left 300px;
     text-align: left;
     color: #707070;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 
 ul{
@@ -64,6 +75,7 @@ h1{
     size: 40px;
     margin-top: 20px;
     color: #707070;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
 }
 .containers{
     display: grid;
@@ -80,9 +92,14 @@ h1{
 
 h2{
     color: #707070;
-
+    width: 282px
+    height: 40px;
 }
 
+p{
+letter-spacing: 0px;
+color: #707070;
+}
 h3{
     color: #707070;
 }

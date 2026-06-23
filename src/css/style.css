@@ -57,6 +57,12 @@ li{
     object-fit: cover;
 }
 
+h1{
+    text-align: left;
+    letter-spacing: 0.4px;
+    size: 40px;
+    margin-top: 20px;
+}
 .containers{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

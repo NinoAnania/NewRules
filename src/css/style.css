@@ -11,22 +11,20 @@ body{
 
 header{
     background-color: #fff;
-    padding: 20px 0; 
+    padding: 20px; 
 }   
+.logo li{
+    display: inline-block;
+    vertical-align: middle;
+}
 
 nav{
-    display: inline-block;
+    display:inline-block;
     margin: left 200px;
     margin-left 300px;
     text-align: left;
 }
 
-nav a{
-    text-decoration: none;
-    color: #444;
-    margin-left: 200px;  
-    font-size: 15px;
-}
 ul{
     list-style: none;
 }
@@ -40,9 +38,9 @@ li{
     margin: 20px auto;
 }
 
-. banner img{
-    width: 50%;
-    height: 500px;
+.banner img{
+    width: 1640px
+    height: 613px;
     object-fit: cover;
 }
 

@@ -23,6 +23,7 @@ nav{
     margin: left 200px;
     margin-left 300px;
     text-align: left;
+    color: #707070;
 }
 
 ul{
@@ -62,6 +63,7 @@ h1{
     letter-spacing: 0.4px;
     size: 40px;
     margin-top: 20px;
+    color: #707070;
 }
 .containers{
     display: grid;
@@ -76,6 +78,14 @@ h1{
     object-fit: cover;
 }
 
+h2{
+    color: #707070;
+
+}
+
+h3{
+    color: #707070;
+}
 .news-2{
     width: 30%;
     margin-bottom: 20px;
